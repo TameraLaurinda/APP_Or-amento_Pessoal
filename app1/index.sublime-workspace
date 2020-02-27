@@ -1,0 +1,544 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"profissao"
+			],
+			[
+				"btn-",
+				"btn-info"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"bg",
+				"bg-warning"
+			],
+			[
+				"float",
+				"float-left"
+			],
+			[
+				"blo",
+				"blockquote-footer"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"border",
+				"border-top\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"taman",
+				"tamanhoAleatorio"
+			],
+			[
+				"posi",
+				"posicaoX"
+			],
+			[
+				"mosquit",
+				"mosquito"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"for",
+				"FOReach"
+			],
+			[
+				"lista",
+				"listaConvidados"
+			],
+			[
+				"orde",
+				"ordenaNumeros"
+			],
+			[
+				"list",
+				"lista_frutas"
+			],
+			[
+				"morango",
+				"Morango"
+			],
+			[
+				"lis",
+				"lista_coisa"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"cac",
+				"calcular"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"ind",
+				"indexOF"
+			],
+			[
+				"char",
+				"CharAt"
+			],
+			[
+				"cha",
+				"CharAt"
+			],
+			[
+				"call",
+				"callbackErro"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pr",
+				"prompt"
+			],
+			[
+				"var",
+				"var3"
+			],
+			[
+				"b",
+				"inline-block\tdisplay"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"magin",
+				"margin\tproperty"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"aling",
+				"align-content\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"backg",
+				"background-size\tproperty"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"bac",
+				"border-image-slice\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"te",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"ca",
+				"colspan\tAttr"
+			],
+			[
+				"U",
+				"url()\tbackground-image"
+			],
+			[
+				"bCK",
+				"background-image\tproperty"
+			],
+			[
+				"ba",
+				"border-image\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"ima",
+				"imagens"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"al",
+				"vertical-align\tproperty"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"alin",
+				"text-align\tproperty"
+			],
+			[
+				"WI",
+				"width\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"o",
+				"option\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"me",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Game_Mata_Mosquito/app.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Nova pasta/variaveis.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/bootstrap-4.4.1-dist/index.html",
+		"/C/Users/tamer/Downloads/apoio-barra-navegacao.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/listas.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/navegacao.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/botoes.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/Media Types/estilo.impressao.css",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/Media Types/estilo.css",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/Media Types/apoio-breakpoints.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Bootstrap/Media Types/index.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Game_Mata_Mosquito/Game-Mata_Mosquito/jogo.js",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Game_Mata_Mosquito/Game-Mata_Mosquito/app.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Game_Mata_Mosquito/Game-Mata_Mosquito/estilo.css",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Game_Mata_Mosquito/Game-Mata_Mosquito/fim_de_jogo.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/webgl.html",
+		"/C/Users/tamer/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Curso/index.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/JavaScript/Curso/meu_script.js",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/CSS Avançado/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/CSS Avançado/estilo.css",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Development/Layout-SupPrime-Forum/Readme.md",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Anna Bella/contato.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Anna Bella/campanhas-publicitarias.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Anna Bella/biografia.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Anna Bella/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Anna Bella/estilo.css",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/WebsitePersonal - Tamera Aventureira/destinos/altoparaiso.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/WebsitePersonal - Tamera Aventureira/destinos/formosa.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/WebsitePersonal - Tamera Aventureira/destinos/minacu.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/WebsitePersonal - Tamera Aventureira/destinos/pirinopolis.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/WebsitePersonal - Tamera Aventureira/destinos.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/WebsitePersonal - Tamera Aventureira/index.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho_IHM-master/WebsitePersonal tabela/destinos.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho_IHM-master/WebsitePersonal tabela/destinos/minacu.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho_IHM-master/WebsitePersonal tabela/destinos/altoparaiso.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho_IHM-master/WebsitePersonal tabela/destinos/formosa.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho_IHM-master/WebsitePersonal tabela/destinos/pirinopolis.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Projeto final/index.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho_IHM-master/WebsitePersonal tabela/estilo.css",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho_IHM-master/WebsitePersonal tabela/index.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/WebsitePersonal/destinos.html",
+		"/C/Users/tamer/Trabalho_IHM/WebsitePersonal tabela/estilo.css",
+		"/C/Users/tamer/Trabalho_IHM/WebsitePersonal tabela/destinos/pirinopolis.html",
+		"/C/Users/tamer/Trabalho_IHM/WebsitePersonal tabela/dicas.html",
+		"/C/Users/tamer/Trabalho_IHM/WebsitePersonal tabela/index.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho de IHM/Trabalho_IHM-master/WebsitePersonal tabela/destinos/pirinopolis.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho de IHM/Trabalho_IHM-master/WebsitePersonal tabela/index.html",
+		"/C/Users/tamer/Downloads/Arquivos impresariais/WebsitePersonal/index.html",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho de IHM/Trabalho_IHM-master/WebsitePersonal tabela/estilo.css",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho de IHM/Trabalho_IHM-master/WebsitePersonal tabela/imagens/DESTINOS1.png",
+		"/C/Users/tamer/OneDrive/Área de Trabalho/Trabalho de IHM/Trabalho_IHM-master/WebsitePersonal tabela/destinos.html",
+		"/C/Users/tamer/Trabalho_IHM/Trabalho_IHM/WebsitePersonal tabela/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/WebsitePersonal/destinos/pirinopolis.html",
+		"/C/Users/tamer/OneDrive/Documentos/WebsitePersonal/destinos.html",
+		"/C/Users/tamer/OneDrive/Documentos/WebsitePersonal/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/WebsitePersonal/estilo.css",
+		"/C/Users/tamer/OneDrive/Documentos/WebsitePersonal/imagens/pirinopolis1.jpg",
+		"/C/Users/tamer/OneDrive/Documentos/WebsitePersonal/imagens/estilo.css",
+		"/C/Users/tamer/OneDrive/Documentos/WebsitePersonal/design.css",
+		"/C/Users/tamer/OneDrive/Documentos/Faculdade/6 - P/IHM/WebsitePersonal/desing-css.html",
+		"/C/Users/tamer/OneDrive/Documentos/Faculdade/6 - P/IHM/WebsitePersonal/desing-css",
+		"/C/Users/tamer/OneDrive/Documentos/Faculdade/6 - P/IHM/WebsitePersonal/dicas.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Primeiro projeto/projeto.html",
+		"/C/Users/tamer/OneDrive/Documentos/Faculdade/6 - P/IHM/WebsitePersonal/destinos.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Porjeto com imagem/img.html",
+		"/C/Users/tamer/OneDrive/Documentos/Faculdade/6 - P/IHM/WebsitePersonal/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/ProjetoCSS3/div-spam.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/ProjetoCSS3/classes-ids.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/ProjetoCSS3/inline_style.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Porjeto com imagem/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Porjeto com imagem/contato.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Porjeto com imagem/esqueciminhasenha.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Porjeto com imagem/formulario.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Porjeto com imagem/carac.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Porjeto com imagem/index.htlm",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Projeto aula/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/Projeto Web/index.html",
+		"/C/Users/tamer/OneDrive/Documentos/Cursos/HTML, CSS E JS/HTML/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"()\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
