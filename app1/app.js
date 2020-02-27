@@ -1,0 +1,89 @@
+class BD{
+
+	constructor(){
+		 let id = localStorage.getItem('id')
+
+		 if(id === null){
+		 	localStorage.setItem('id', 0)
+		 }
+	}
+
+	getProximoID(){
+		let proximoID = localStorage.getItem('id')
+		return parseInt((proximoID)+1)
+	}
+
+	gravar(d){
+			let id = this.getProximoID()
+			localStorage.setItem(id, JSON.stringify(d))
+			localStorage.setItem('id', id)
+	}
+
+	validarDados(){
+
+		for(let i in this)
+		{
+			if(i == 'valor')
+			{
+				if(this.[i] < 0)
+				{
+					return false
+				}
+
+			}
+			if (this.[i] )
+			{
+
+			}
+		}
+	}
+	
+}
+
+ let bd = new BD()
+ 
+
+class Despesa{
+
+	constructor(ano, mes, dia, tipo, descricao, valor){
+
+		this.ano = ano
+		this.dia = dia
+		this.mes = mes
+		this.tipo = tipo
+		this.descricao = descricao
+		this.valor = valor
+
+	}
+}
+
+function cadastrarDespesa(){
+
+	let ano = document.getElementById("ano")
+	let mes = document.getElementById('mes')
+	let dia = document.getElementById('dia')
+	let tipo = document.getElementById('tipo')
+	let descricao = document.getElementById('descricao')
+	let valor = document.getElementById('valor')
+
+	let despesa = new Despesa(ano.value, mes.value, dia.value, tipo.value, descricao.value, valor.value)
+
+	
+	for (let x in this)
+	{
+		if()
+		{
+				bd.gravar(despesa)
+				alert()
+		}
+		else{
+
+		}
+	}
+
+	console.log(valor.value)
+}
+
+
+
+
