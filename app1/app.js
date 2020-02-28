@@ -10,33 +10,17 @@ class BD{
 
 	getProximoID(){
 		let proximoID = localStorage.getItem('id')
-		return parseInt((proximoID)+1)
+		return parseInt(proximoID)+1
 	}
 
 	gravar(d){
-			let id = this.getProximoID()
-			localStorage.setItem(id, JSON.stringify(d))
-			localStorage.setItem('id', id)
+				let id = this.getProximoID()
+				localStorage.setItem(id, JSON.stringify(d))
+				localStorage.setItem('id', id)
+			
 	}
 
-	validarDados(){
-
-		for(let i in this)
-		{
-			if(i == 'valor')
-			{
-				if(this.[i] < 0)
-				{
-					return false
-				}
-
-			}
-			if (this.[i] )
-			{
-
-			}
-		}
-	}
+	
 	
 }
 
@@ -55,6 +39,20 @@ class Despesa{
 		this.valor = valor
 
 	}
+	validarDados(){
+
+		for(let i in this)
+		{
+			console.log(this[i], i)
+			if(this[i] == undefined || this[i] == null || this[i] <= 0 || this[i] == '')
+			{
+				console.log(this[i])
+				return false
+			}
+
+		}
+		return true
+	}
 }
 
 function cadastrarDespesa(){
@@ -66,23 +64,23 @@ function cadastrarDespesa(){
 	let descricao = document.getElementById('descricao')
 	let valor = document.getElementById('valor')
 
+
 	let despesa = new Despesa(ano.value, mes.value, dia.value, tipo.value, descricao.value, valor.value)
 
-	
-	for (let x in this)
+
+	if(despesa.validarDados())
 	{
-		if()
-		{
-				bd.gravar(despesa)
-				alert()
-		}
-		else{
-
-		}
+		bd.gravar(despesa)
+		alert("Despesa incluida com sucesso!")
 	}
-
-	console.log(valor.value)
+	else{
+		alert("Dados inválidos!") 
+		//modal altera o ID da dic princial e moditifcar a mensagem a
+		// altar data-toggler
+		// função em Jquery $(id).modal('show')
+	}
 }
+	
 
 
 
