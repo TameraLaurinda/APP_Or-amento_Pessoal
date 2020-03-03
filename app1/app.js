@@ -20,6 +20,15 @@ class BD{
 			
 	}
 
+	recuperarRegistros(){
+
+		//Recuperando id atual que representa quantidade de despesas incluidas
+		id = localStorage.getItem('id')
+
+		//Recuperar todas as despesas cadastradas em localStorage
+		
+	}
+
 	
 	
 }
@@ -55,6 +64,8 @@ class Despesa{
 	}
 }
 
+ let dep = new Despesa()
+
 function cadastrarDespesa(){
 
 	let ano = document.getElementById("ano")
@@ -71,14 +82,29 @@ function cadastrarDespesa(){
 	if(despesa.validarDados())
 	{
 		bd.gravar(despesa)
-		alert("Despesa incluida com sucesso!")
+		
+		document.getElementById('modal_titulo').innerHTML = 'Sucesso'
+		document.getElementById('model_msm').innerHTML = 'Dados Inseridos!'
+		document.getElementById('modal_titulo_div').className = 'modal-header text-success'
+		document.getElementById('modal_btn').className = 'btn btn-success'
+		document.getElementById('modal_btn').innerHTML= 'Volta'
+		$('#modalRegistra').modal('show')
 	}
 	else{
-		alert("Dados inválidos!") 
-		//modal altera o ID da dic princial e moditifcar a mensagem a
-		// altar data-toggler
-		// função em Jquery $(id).modal('show')
+		
+		document.getElementById('modal_titulo').innerHTML = 'Falha'
+		document.getElementById('model_msm').innerHTML = 'Dados inválidos!'
+		document.getElementById('modal_titulo_div').className = 'modal-header text-danger'
+		document.getElementById('modal_btn').className = 'btn btn-danger'
+		document.getElementById('modal_btn').innerHTML= 'Volta e corrigir'
+		$('#modalRegistra').modal('show')
 	}
+}
+
+function consularDespesar(){
+
+	//bd.recuperarRegistros()
+	console.log('chegou')
 }
 	
 
