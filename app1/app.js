@@ -46,6 +46,12 @@ class BD {
 
     }
 
+    pesquisarDespesas(dados) {
+
+        this.recuperarRegistros()
+
+    }
+
 
 
 }
@@ -83,7 +89,7 @@ class Despesa {
 
 let dep = new Despesa()
 
-function cadastrarDespesa() {
+function recuperarDados() {
 
     let ano = document.getElementById("ano")
     let mes = document.getElementById('mes')
@@ -95,29 +101,7 @@ function cadastrarDespesa() {
 
     let despesa = new Despesa(ano.value, mes.value, dia.value, tipo.value, descricao.value, valor.value)
 
-    // Aviso via modal para informar sobre o sucesso ou falha na inclusão dos dados
-    if (despesa.validarDados()) {
-        bd.gravar(despesa)
-
-        //Inlcuindo nas tag do modal as informações de forma programática
-        document.getElementById('modal_titulo').innerHTML = 'Sucesso'
-        document.getElementById('model_msm').innerHTML = 'Dados Inseridos!'
-        document.getElementById('modal_titulo_div').className = 'modal-header text-success'
-        document.getElementById('modal_btn').className = 'btn btn-success'
-        document.getElementById('modal_btn').innerHTML = 'Volta'
-        $('#modalRegistra').modal('show')
-
-        limparCampos()
-
-    } else {
-
-        document.getElementById('modal_titulo').innerHTML = 'Falha'
-        document.getElementById('model_msm').innerHTML = 'Dados inválidos!'
-        document.getElementById('modal_titulo_div').className = 'modal-header text-danger'
-        document.getElementById('modal_btn').className = 'btn btn-danger'
-        document.getElementById('modal_btn').innerHTML = 'Volta e corrigir'
-        $('#modalRegistra').modal('show')
-    }
+    return despesa
 }
 
 // Função executada sempre que a view Consulta e aberta para poder listar as consutas que ja foram cadastrada
@@ -167,7 +151,7 @@ function consultarDespesas() {
             default:
                 break
         }
-        //linha.insertCell(1).innerHTML = `${d.tipo}`
+
         linha.insertCell(2).innerHTML = `${d.descricao}`
 
         let a = d.valor.indexOf(',')
@@ -186,4 +170,40 @@ function limparCampos() {
     document.getElementById('tipo').value = ''
     document.getElementById('descricao').value = ''
     document.getElementById('valor').value = ''
+}
+
+function gravarDespesa() {
+    let despesa = recuperarDados()
+        // Aviso via modal para informar sobre o sucesso ou falha na inclusão dos dados
+    if (despesa.validarDados()) {
+        bd.gravar(despesa)
+
+        //Inlcuindo nas tag do modal as informações de forma programática
+        document.getElementById('modal_titulo').innerHTML = 'Sucesso'
+        document.getElementById('model_msm').innerHTML = 'Dados Inseridos!'
+        document.getElementById('modal_titulo_div').className = 'modal-header text-success'
+        document.getElementById('modal_btn').className = 'btn btn-success'
+        document.getElementById('modal_btn').innerHTML = 'Volta'
+        $('#modalRegistra').modal('show')
+
+        limparCampos()
+
+    } else {
+
+        document.getElementById('modal_titulo').innerHTML = 'Falha'
+        document.getElementById('model_msm').innerHTML = 'Dados inválidos!'
+        document.getElementById('modal_titulo_div').className = 'modal-header text-danger'
+        document.getElementById('modal_btn').className = 'btn btn-danger'
+        document.getElementById('modal_btn').innerHTML = 'Volta e corrigir'
+        $('#modalRegistra').modal('show')
+    }
+}
+
+function consultar() {
+
+    let despesas = recuperarRegistros()
+    let dados = recuperarDados()
+    console.log(dados)
+        //bd.pesquisarDespesas(dados)
+
 }
