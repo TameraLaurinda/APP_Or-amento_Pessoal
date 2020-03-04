@@ -106,6 +106,9 @@ function cadastrarDespesa() {
         document.getElementById('modal_btn').className = 'btn btn-success'
         document.getElementById('modal_btn').innerHTML = 'Volta'
         $('#modalRegistra').modal('show')
+
+        limparCampos()
+
     } else {
 
         document.getElementById('modal_titulo').innerHTML = 'Falha'
@@ -117,17 +120,70 @@ function cadastrarDespesa() {
     }
 }
 
+// Função executada sempre que a view Consulta e aberta para poder listar as consutas que ja foram cadastrada
+
 function consultarDespesas() {
 
     let lista_despesas = []
+        //Função para retonar uma lista com todos os registros cadastrados
     lista_despesas = bd.recuperarRegistros()
 
-    var tabDespesas = document.getElementById('tabelaDespesas')
+    //Recuperando a id da tbody para criar as linhas e colunas de forma programática
+    let tabDespesas = document.getElementById('tabelaDespesas')
 
-
-
+    //Percorrer toda a lista e recuperar cada registro armazenado e inclui-lo a tabela
     lista_despesas.forEach(function(d) {
 
-        tabDespesas.insertRow()
+        linha = tabDespesas.insertRow()
+
+        if (d.mes < 10) {
+            linha.insertCell(0).innerHTML = `${d.dia}/0${d.mes}/${d.ano}`
+        } else {
+            linha.insertCell(0).innerHTML = `${d.dia}/${d.mes}/${d.ano}`
+        }
+
+        switch (parseInt(d.tipo)) {
+
+            case 1:
+                linha.insertCell(1).innerHTML = "Alimentação"
+                break
+
+            case 2:
+                linha.insertCell(1).innerHTML = "Educação"
+                break
+
+            case 3:
+                linha.insertCell(1).innerHTML = "Lazer"
+                break
+
+            case 4:
+                linha.insertCell(1).innerHTML = "Saúde"
+                break
+
+            case 5:
+                linha.insertCell(1).innerHTML = "Transporte"
+                break
+
+            default:
+                break
+        }
+        //linha.insertCell(1).innerHTML = `${d.tipo}`
+        linha.insertCell(2).innerHTML = `${d.descricao}`
+
+        let a = d.valor.indexOf(',')
+        if (a < 1) {
+            linha.insertCell(3).innerHTML = `R$ ${d.valor},00`
+        } else {
+            linha.insertCell(3).innerHTML = `R$ ${d.valor}`
+        }
     })
+}
+
+function limparCampos() {
+    document.getElementById('ano').value = ''
+    document.getElementById('mes').value = ''
+    document.getElementById('dia').value = ''
+    document.getElementById('tipo').value = ''
+    document.getElementById('descricao').value = ''
+    document.getElementById('valor').value = ''
 }
